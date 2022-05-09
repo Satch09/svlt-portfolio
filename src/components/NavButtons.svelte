@@ -1,7 +1,11 @@
-<ul class="menu menu-horizontal p-0">
+<ul class="menu rounded-lg lg:menu-horizontal bg-slate-200 p-1">
+	<!-- <ul
+	tabindex="0"
+	class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-200 rounded-box w-52"
+> -->
 	<li><a>One</a></li>
 	<li tabindex="0">
-		<a>
+		<a href="#">
 			Parent
 			<svg
 				class="fill-current"
@@ -12,7 +16,7 @@
 				><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg
 			>
 		</a>
-		<ul class="p-2 bg-base-100">
+		<ul class="p-2 bg-slate-50 z-50">
 			<li><a>Two</a></li>
 			<li><a>Three</a></li>
 		</ul>
